@@ -1,5 +1,80 @@
 <html>
+   <head>
+      <meta charset="UTF-8">
+      <title>portfolio</title>
+      <style>
+         .main{
+            height:1000px;
+            width:95%;
+            border:10px solid black;
+            border-radius:8px;
+            background-color:rgb(240, 246, 255);
+            display:flex;
+            flex-direction:row;
+         }
+         .vertical{
+            height:1000px;
+            width:28%;
+            display:flex;
+            flex-direction:column;
+            background-color:rgb(14, 55, 117);
+            justify-content:center;
+            align-items:center;
+            gap:30px;
+         }
+         .st{
+            color:rgb(0, 6, 15);
+            font-size:15px;
+            font-family:bold;
+         }
+         .nd{
+            color:rgb(0, 6, 15);
+            font-size:15px;
+            font-family:bold;
+         }
+         .rd{
+            color:rgb(0, 6, 15);
+            font-size:15px;
+            font-family:bold;
+         }
+         .content{
+            background-color:rgb(98, 72, 150);
+            color:rgb(0, 6, 15);
+            font-size:20px;
+         }
+         .img{
+           position:absolute;
+            top:0;
+            right:0;
+         }
+      </style>
+   </head>
    <body>
-     <h1>Hello, this is my first GitHub Page!</h1>
+      <div class="main">
+         <div class="vertical">
+            <h1 class="st">ABOUT ME</h1>
+            <h1 class="nd">HOBBIES</h1>
+            <h1 class="rd">achievements</h1> 
+         </div>
+         <div class="content">
+            <h1>name's portfolio</h1>
+            <h1>"hobbies"</h1>
+            <ul>
+               <li>sports</li>
+               <li>coding</li>
+               <li>reading</li>
+            </ul>
+            <h1>"achievements"</h1>
+            <ul>
+               <li>nationals in grappling</li>
+               <li>states in wushu</li>
+               <li>nationals in karate</li>
+            </ul>
+         </div>
+         <div class="img">
+            <img src="https://i.pinimg.com/236x/dc/d4/0d/dcd40d9a7f9cf6a52e6cd4b2b93b15f6.jpg">
+         </div>
+      </div>
+     
    </body>
  </html>
